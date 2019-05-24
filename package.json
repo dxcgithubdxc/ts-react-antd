@@ -1,0 +1,47 @@
+{
+  "name": "ts-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-dev": "./node_modules/.bin/webpack --watch --devtool source-map --mode development --config webpack.config.js ",
+    "build-prod": "./node_modules/.bin/webpack --watch --devtool source-map --mode production --config webpack.config.js ",
+    "oldstart": "./node_modules/.bin/webpack-dev-server --devtool source-map --mode development",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^16.8.18",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-router-dom": "^4.3.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "less-loader": "^5.0.0",
+    "style-loader": "^0.23.1",
+    "ts-import-plugin": "^1.5.5",
+    "ts-loader": "^6.0.1",
+    "tslint": "^5.16.0",
+    "tslint-loader": "^3.5.4",
+    "typed-css-modules-loader": "0.0.17",
+    "typescript": "^3.4.5",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1",
+    "wepack": "0.0.1"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.132",
+    "@types/node": "^12.0.2",
+    "antd": "^3.18.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0"
+  }
+}
